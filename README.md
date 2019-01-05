@@ -1,7 +1,7 @@
 # SigNet
 > A Convolutional Neural Network that accurately recognizes 43 different traffic signs.
 
-> The model has been deployed on [render](https://signet-283b.app.render.com/). You can test it on your own images [there](https://signet-283b.app.render.com/).
+> The model has been deployed on [render](https://signet-283b.app.render.com/). You can test it on your own images [there](https://signet-283b.app.render.com/). The accompanying code for the web application can be found [here](https://github.com/asiedubrempong/SigNet-app)
 
 ## Table of Contents
 * [Motivation](#motivation)
