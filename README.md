@@ -16,8 +16,9 @@ Recognition of traffic signs is a challenging real-world problem of high industr
 ## Dataset
 For the recognition of traffic signs, the dataset used is from the [German Traffic Sign Recognition Benchmark](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset)
 The training set contains 31368 images in 43 classes. A test set which has 12630 images is also provided.
-
 <div align=center><img src="./signs/one.png"/></div>
+However it can be observed that for most of the images in the dataset, the contrast low. To be able to build a model that works well on images from other sources, I created a supplementary dataset consisting of images scraped from the web. The model is fine-tuned on this dataset after it has been trained on the German Traffic Signs Dataset.
+<div align=center><img src="./signs/new.png"/></div>
 
 ## Project information
 A pretrained resnet50 architecture is used to perform transfer learning on the dataset. These techniques were used for the trainig of the model:
